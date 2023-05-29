@@ -1,0 +1,8 @@
+.header__social-links {
+    grid-column: 11 / 12;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    list-style-type: none;
+    padding: 0;
+}

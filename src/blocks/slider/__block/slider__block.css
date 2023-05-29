@@ -1,0 +1,4 @@
+.slider__block {
+    grid-column: 1 / 6;
+    display: grid;
+}

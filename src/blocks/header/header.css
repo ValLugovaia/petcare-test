@@ -1,0 +1,7 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 72px);
+    grid-template-rows: 1fr;
+    gap: 32px;
+    margin: 48px auto 36px;
+}

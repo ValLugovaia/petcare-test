@@ -1,0 +1,11 @@
+@import url(../blocks/page/page.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__nav-links/header__nav-links.css);
+@import url(../blocks/header/__social-links/header__social-links.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__block/slider__block.css);
