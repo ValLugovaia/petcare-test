@@ -1,0 +1,22 @@
+{
+  "name": "petcare-test",
+  "version": "1.0.0",
+  "description": "My first gulp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValLugovaia/petcare-test.git"
+  },
+  "author": "Valentina Lugovaia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValLugovaia/petcare-test/issues"
+  },
+  "homepage": "https://github.com/ValLugovaia/petcare-test#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
