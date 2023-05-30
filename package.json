@@ -18,5 +18,8 @@
   "homepage": "https://github.com/ValLugovaia/petcare-test#readme",
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "swiper": "^9.3.2"
   }
 }

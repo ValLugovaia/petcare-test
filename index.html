@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="src/pages/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="/gulpfile.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Petcare</title>
 </head>
@@ -27,24 +30,60 @@
   </header>
   <main class="main">
     <section class="slider page__section">
-      <div class="slider__block">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="slider__block">
+              <button class="slider__arrow slider__arrow_left"><img class="slider__arrow-img" src="src/images/slider/slider-arrow-left.svg" alt="Стрелка влево."></button>
+              <h1 class="slider__title">Мы заботимся о ваших питомцах</h1>
+              <p class="slider__subtitle">Записывайтесь в ветклиники и консультируйтесь с ветеринарным врачом онлайн</p>
+              <button class="slider__button">Связаться с нами</button>
+            </div>
+            <img class="slider__image" src="src/images/slider/slider-image.png" alt="Серый полосатый кот сидит.">
+            <button class="slider__arrow slider__arrow_right"><img class="slider__arrow-img" src="src/images/slider/slider-arrow-right.svg" alt="Стрелка вправо."></button>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__block slider__block_right">
+              
+            </div>
+          </div>
+          <div class="swiper-slide">Slide 3</div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+      <!-- <div class="slider__block">
         <button class="slider__arrow slider__arrow_left"><img class="slider__arrow-img" src="src/images/slider/slider-arrow-left.svg" alt="Стрелка влево."></button>
         <h1 class="slider__title">Мы заботимся о ваших питомцах</h1>
         <p class="slider__subtitle">Записывайтесь в ветклиники и консультируйтесь с ветеринарным врачом онлайн</p>
         <button class="slider__button">Связаться с нами</button>
       </div>
       <img class="slider__image" src="src/images/slider/slider-image.png" alt="Серый полосатый кот сидит.">
-      <button class="slider__arrow slider__arrow_right"><img class="slider__arrow-img" src="src/images/slider/slider-arrow-right.svg" alt="Стрелка вправо."></button>
+      <button class="slider__arrow slider__arrow_right"><img class="slider__arrow-img" src="src/images/slider/slider-arrow-right.svg" alt="Стрелка вправо."></button> -->
     </section>
     <section class="content page__section">
-      <div class="content__card">
-        <h2 class="content__card-title">Сколько стоит онлайн-консультация с терапевтом?</h2>
-        <img class="content__card-arrow" src="src/images/content/content-arrow.svg" alt="Длинная стрелка вправо.">
+      <div class="content__card content__card_left">
+        <div class="content__info">
+          <h2 class="content__card-title">Сколько стоит онлайн-консультация с терапевтом?</h2>
+          <img class="content__card-arrow" src="src/images/content/content-arrow.svg" alt="Длинная стрелка вправо.">
+        </div>
       </div>
-      <div class="content__card">
-        <h2 class="content__card-title">Самые болезненные породы кошек: топ-5</h2>
-        <p class="content__card-subtitle">Среди кошачьих пород есть несколько, отличающихся слабым здоровьем.</p>
-        <a class="link content__card-link" href="#">Все статьи о кошках</a>
+      <div class="content__card content__card_right">
+        <div class="content__info">
+          <h2 class="content__card-title">Самые болезненные породы кошек: топ-5</h2>
+          <p class="content__card-subtitle">Среди кошачьих пород есть несколько, отличающихся слабым здоровьем.</p>
+          <a class="link content__card-link" href="#">Все статьи о кошках</a>
+        </div>
       </div>
     </section>
   </main>
