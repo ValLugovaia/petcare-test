@@ -3,6 +3,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -32,3 +33,6 @@
 @import url(../blocks/content/__consultation-check-img/content__consultation-check-img.css);
 @import url(../blocks/content/__consultation-text/content__consultation-text.css);
 @import url(../blocks/content/__consultation-button/content__consultation-button.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
