@@ -1,0 +1,11 @@
+.content__consultation-button {
+    width: 344px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    background-color: #394573;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}

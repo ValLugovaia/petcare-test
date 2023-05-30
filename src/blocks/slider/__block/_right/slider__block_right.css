@@ -1,4 +1,6 @@
 .slider__block_right {
     background-image: url(../../../../images/slider/slider-image2.png);
     background-color: none;
+    height: 100%;
+    display: block;
 }

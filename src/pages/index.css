@@ -23,3 +23,12 @@
 @import url(../blocks/content/__card/_right/content__card_right.css);
 @import url(../blocks/content/__info/content__info.css);
 @import url(../blocks/content/__card-title/content__card-title.css);
+@import url(../blocks/content/__consultation/content__consultation.css);
+@import url(../blocks/content/__consultation-title/content__consultation-title.css);
+@import url(../blocks/content/__consultation-price/content__consultation-price.css);
+@import url(../blocks/content/__consultation-list/content__consultation-list.css);
+@import url(../blocks/content/__consultation-item/content__consultation-item.css);
+@import url(../blocks/content/__consultation-check/content__consultation-check.css);
+@import url(../blocks/content/__consultation-check-img/content__consultation-check-img.css);
+@import url(../blocks/content/__consultation-text/content__consultation-text.css);
+@import url(../blocks/content/__consultation-button/content__consultation-button.css);

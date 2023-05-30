@@ -31,9 +31,7 @@
   <main class="main">
     <section class="slider page__section">
       <div class="swiper">
-        <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
-          <!-- Slides -->
           <div class="swiper-slide">
             <div class="slider__block">
               <button class="slider__arrow slider__arrow_left"><img class="slider__arrow-img" src="src/images/slider/slider-arrow-left.svg" alt="Стрелка влево."></button>
@@ -49,18 +47,9 @@
               
             </div>
           </div>
-          <div class="swiper-slide">Slide 3</div>
-          ...
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-      
-        <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-      
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
       </div>
       <!-- <div class="slider__block">
         <button class="slider__arrow slider__arrow_left"><img class="slider__arrow-img" src="src/images/slider/slider-arrow-left.svg" alt="Стрелка влево."></button>
@@ -75,7 +64,28 @@
       <div class="content__card content__card_left">
         <div class="content__info">
           <h2 class="content__card-title">Сколько стоит онлайн-консультация с терапевтом?</h2>
-          <img class="content__card-arrow" src="src/images/content/content-arrow.svg" alt="Длинная стрелка вправо.">
+          <button class="content__card-button">
+            <img class="content__card-arrow" src="src/images/content/content-arrow.svg" alt="Длинная стрелка вправо.">
+          </button>
+        </div>
+        <div class="content__consultation">
+          <h2 class="content__consultation-title">Онлайн-консультация с терапевтом</h2>
+          <p class="content__consultation-price">от 399 ₽</p>
+          <ul class="content__consultation-list">
+            <li class="content__consultation-item">
+              <div class="content__consultation-check"></div>
+              <p class="content__consultation-text">Аудио, видео или чат</p>
+            </li>
+            <li class="content__consultation-item">
+              <div class="content__consultation-check"></div>
+              <p class="content__consultation-text">Продолжительность до 60 минут</p>
+            </li>
+            <li class="content__consultation-item">
+              <div class="content__consultation-check"></div>
+              <p class="content__consultation-text">Подробный отчет после<br> консультации: что сделать сейчас,<br> чтобы стало лучше</p>
+            </li>
+          </ul>
+          <button class="content__consultation-button">Начать консультацию</button>
         </div>
       </div>
       <div class="content__card content__card_right">
