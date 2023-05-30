@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/font.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/header/header.css);
@@ -10,3 +11,6 @@
 @import url(../blocks/main/main.css);
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__block/slider__block.css);
+@import url(../blocks/slider/__arrow/slider__arrow.css);
+@import url(../blocks/slider/__arrow-img/slider__arrow-img.css);
+@import url(../blocks/slider/__image/slider__image.css);

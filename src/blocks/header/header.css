@@ -4,4 +4,5 @@
     grid-template-rows: 1fr;
     gap: 32px;
     margin: 48px auto 36px;
+    padding: 0 112px;
 }

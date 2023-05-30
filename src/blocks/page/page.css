@@ -1,7 +1,6 @@
 .page {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: auto;
-    padding: 0 112px;
     background-color: #FFFFFF;
     color: #333333;
     font-family: 'Montserrat', Arial, sans-serif;
