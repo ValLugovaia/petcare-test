@@ -3,9 +3,11 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__image/logo__image.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__burger-button/header__burger-button.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__nav-links/header__nav-links.css);
 @import url(../blocks/header/__social-links/header__social-links.css);
@@ -23,6 +25,7 @@
 @import url(../blocks/slider/__button/slider__button.css);
 @import url(../blocks/slider/__button/_right/slider__button_right.css);
 @import url(../blocks/slider/__image/slider__image.css);
+@import url(../blocks/slider/__image/_right/slider__image_right.css);
 @import url(../blocks/slider/__price/slider__price.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__card/content__card.css);
