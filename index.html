@@ -96,6 +96,78 @@
         </div>
       </div>
     </section>
+    <section class="popup popup_opened">
+      <div class="popup__container">
+        <button class="popup__close-button" name="close-popup" type="button"></button>
+        <div class="popup__content">
+          <h2 class="popup__title">Чтобы подобрать план,<br> необходимо заполнить форму ниже</h2>
+          <span class="popup__span">У меня:</span>
+          <form class="popup__form" name="popup" novalidate>
+            <div class="popup__radio">
+              <div class="popup__field">
+                <input
+                class="popup__input_type_radio"
+                id="cat"
+                name="pet"
+                type="radio"
+                required
+                >
+                <label class="popup__label" for="cat">Кошка</label>
+              </div>
+              <div class="popup__field">
+                <input
+                class="popup__input_type_radio"
+                id="dog"
+                name="pet"
+                type="radio"
+                required
+                >
+                <label class="popup__label" for="dog">Собака</label>
+              </div>
+            </div>
+            <input
+              class="popup__input popup__input_type_name"
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Имя питомца"
+            >
+            <input
+              class="popup__input popup__input_type_breed"
+              id="breed"
+              name="breed"
+              type="text"
+              placeholder="Порода питомца*"
+              required
+            >
+            <input
+              class="popup__input popup__input_type_age"
+              id="age"
+              name="age"
+              type="number"
+              placeholder="Возраст питомца*"
+              required
+            >
+            <input
+              class="popup__input popup__input_type_phone"
+              id="phone"
+              name="phone"
+              type="tel"
+              placeholder="Ваш номер телефона"
+            >
+            <input
+              class="popup__input popup__input_type_email"
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Ваш email"
+              required
+            >
+            <button class="popup__save-button" name="save-avatar" type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="footer">
     <ul class="footer__contacts">

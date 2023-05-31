@@ -1,0 +1,5 @@
+.popup__radio {
+    display: flex;
+    gap: 40px;
+    margin: 16px auto 41px;
+}
