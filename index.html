@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="src/pages/index.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="/gulpfile.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Petcare</title>
 </head>
@@ -30,40 +29,35 @@
   </header>
   <main class="main">
     <section class="slider">
-      <div class="swiper">
+      <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
+            <div class="ellipse"></div>
             <div class="slider__grid">
               <div class="slider__block">
                 <div class="swiper-button-prev"></div>
-                <!-- <button class="slider__arrow slider__arrow_left"><img class="slider__arrow-img" src="src/images/slider/slider-arrow-left.svg" alt="Стрелка влево."></button> -->
-                <h1 class="slider__title">Мы заботимся о ваших питомцах</h1>
-                <p class="slider__subtitle">Записывайтесь в ветклиники и консультируйтесь с ветеринарным врачом онлайн</p>
+                <h2 class="slider__title">Мы заботимся<br> о ваших питомцах</h2>
+                <p class="slider__subtitle">Записывайтесь в ветклиники<br> и консультируйтесь с ветеринарным<br> врачом онлайн</p>
                 <button class="slider__button">Связаться с нами</button>
               </div>
               <img class="slider__image" src="src/images/slider/slider-image.png" alt="Серый полосатый кот сидит.">
               <div class="swiper-button-next"></div>
-              <!-- <button class="slider__arrow slider__arrow_right"><img class="slider__arrow-img" src="src/images/slider/slider-arrow-right.svg" alt="Стрелка вправо."></button> -->
             </div>
-            
           </div>
           <div class="swiper-slide">
-            <div class="slider__block slider__block_right">
-              
+            <div class="slider__grid_right">
+              <div class="slider__block">
+                <div class="swiper-button-prev"></div>
+                <h2 class="slider__title slider__title_right">Закажите план заботы</h2>
+                <p class="slider__subtitle slider__subtitle_right">Регулярная доставка специально<br> подобранного корма и других<br> товаров для кошек и собак</p>
+                <p class="slider__price">от 1299 ₽/мес</p>
+                <button class="slider__button slider__button_right">Подобрать план</button>
+              </div>
+              <div class="swiper-button-next"></div>
             </div>
           </div>
         </div>
-        
-        
       </div>
-      <!-- <div class="slider__block">
-        <button class="slider__arrow slider__arrow_left"><img class="slider__arrow-img" src="src/images/slider/slider-arrow-left.svg" alt="Стрелка влево."></button>
-        <h1 class="slider__title">Мы заботимся о ваших питомцах</h1>
-        <p class="slider__subtitle">Записывайтесь в ветклиники и консультируйтесь с ветеринарным врачом онлайн</p>
-        <button class="slider__button">Связаться с нами</button>
-      </div>
-      <img class="slider__image" src="src/images/slider/slider-image.png" alt="Серый полосатый кот сидит.">
-      <button class="slider__arrow slider__arrow_right"><img class="slider__arrow-img" src="src/images/slider/slider-arrow-right.svg" alt="Стрелка вправо."></button> -->
     </section>
     <section class="content page__section">
       <div class="content__card content__card_left">
@@ -185,5 +179,19 @@
       <p class="logo__text">PetCare</p>
     </div>
   </footer>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
 </body>
 </html>

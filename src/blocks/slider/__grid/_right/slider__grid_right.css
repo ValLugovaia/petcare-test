@@ -1,0 +1,8 @@
+.slider__grid_right {
+    background-image: url(../../../../images/slider/slider-image2.png);
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: 1fr;
+    gap: 32px;
+    padding: 32px 112px 65px;
+}

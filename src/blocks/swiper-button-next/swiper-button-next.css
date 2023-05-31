@@ -1,14 +1,14 @@
-.swiper-button-prev {
-    background: #FFFFFF url(../../images/slider/slider-arrow-left.svg) center center no-repeat !important;
+.swiper-button-next {
+    background: #FFFFFF url(../../images/slider/slider-arrow-right.svg) center center no-repeat !important;
     margin-top: 32px !important;
     width: 50px !important;
     height: 50px !important;
     border: none !important;
     border-radius: 50% !important;
     position: static !important;
-    grid-column-start: 1 !important;
+    grid-column-end: 13 !important;
 }
 
-.swiper-button-prev::after {
+.swiper-button-next::after {
     display: none;
 }

@@ -1,4 +1,4 @@
 .logo_footer {
-    grid-column-end: 12;
-
+    grid-column-end: -2;
+    align-self: end;
 }
