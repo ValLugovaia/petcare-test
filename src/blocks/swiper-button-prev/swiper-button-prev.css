@@ -1,0 +1,13 @@
+.swiper-button-prev {
+    background: #FFFFFF url(../../images/slider/slider-arrow-left.svg) center center no-repeat !important;
+    margin-top: 32px !important;
+    width: 50px !important;
+    height: 50px !important;
+    border: none !important;
+    border-radius: 50% !important;
+    position: static !important;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}

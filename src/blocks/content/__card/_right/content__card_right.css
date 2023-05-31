@@ -1,4 +1,4 @@
 .content__card_right {
-    /* background: url(../../../../images/content/content-image2.jpg); */
-
+    background: url(../../../../images/content/content-image2.jpg);
+    grid-column-start: 7;
 }

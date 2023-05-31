@@ -1,3 +1,4 @@
 .content__card_left {
-    /* background: url(../../../../images/content/content-image1.jpg) 100% 50% / cover; */
+    background: url(../../../../images/content/content-image1.jpg) 100% 50% / cover;
+    grid-column-start: 1;
 }

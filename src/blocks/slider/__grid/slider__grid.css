@@ -1,4 +1,4 @@
-.page__section {
+.slider__grid {
     display: grid;
     grid-template-columns: repeat(12, 72px);
     grid-template-rows: 1fr;
