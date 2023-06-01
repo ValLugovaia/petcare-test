@@ -1,0 +1,143 @@
+@import url(../fonts/normalize.css);
+
+@import url(../fonts/font.css);
+
+@import url(../css/page/page.css);
+
+@import url(../css/page/__section/page__section.css);
+
+@import url(../css/logo/logo.css);
+
+@import url(../css/logo/__image/logo__image.css);
+
+@import url(../css/logo/_footer/logo_footer.css);
+
+@import url(../css/link/link.css);
+
+@import url(../css/header/header.css);
+
+@import url(../css/header/__burger-button/header__burger-button.css);
+
+@import url(../css/header/__logo/header__logo.css);
+
+@import url(../css/header/__nav-links/header__nav-links.css);
+
+@import url(../css/header/__nav-links/_mobile/header__nav-links_mobile.css);
+
+@import url(../css/header/__nav-link/header__nav-link.css);
+
+@import url(../css/header/__nav-bar/header__nav-bar.css);
+
+@import url(../css/header/__nav-bar/_opened/header__nav-bar_opened.css);
+
+@import url(../css/header/__close-button/header__close-button.css);
+
+@import url(../css/header/__social-links/header__social-links.css);
+
+@import url(../css/main/main.css);
+
+@import url(../css/slider/slider.css);
+
+@import url(../css/slider/__grid/slider__grid.css);
+
+@import url(../css/slider/__grid/_right/slider__grid_right.css);
+
+@import url(../css/slider/__block/slider__block.css);
+
+@import url(../css/slider/__arrow/slider__arrow.css);
+
+@import url(../css/slider/__arrow-img/slider__arrow-img.css);
+
+@import url(../css/slider/__title/slider__title.css);
+
+@import url(../css/slider/__title/_right/slider__title_right.css);
+
+@import url(../css/slider/__subtitle/slider__subtitle.css);
+
+@import url(../css/slider/__subtitle/_right/slider__subtitle_right.css);
+
+@import url(../css/slider/__button/slider__button.css);
+
+@import url(../css/slider/__button/_right/slider__button_right.css);
+
+@import url(../css/slider/__image/slider__image.css);
+
+@import url(../css/slider/__image/_right/slider__image_right.css);
+
+@import url(../css/slider/__price/slider__price.css);
+
+@import url(../css/content/content.css);
+
+@import url(../css/content/__card/content__card.css);
+
+@import url(../css/content/__card/_left/content__card_left.css);
+
+@import url(../css/content/__card/_right/content__card_right.css);
+
+@import url(../css/content/__overlay/content__overlay.css);
+
+@import url(../css/content/__info/content__info.css);
+
+@import url(../css/content/__card-title/content__card-title.css);
+
+@import url(../css/content/__consultation/content__consultation.css);
+
+@import url(../css/content/__consultation-title/content__consultation-title.css);
+
+@import url(../css/content/__consultation-price/content__consultation-price.css);
+
+@import url(../css/content/__consultation-list/content__consultation-list.css);
+
+@import url(../css/content/__consultation-item/content__consultation-item.css);
+
+@import url(../css/content/__consultation-check/content__consultation-check.css);
+
+@import url(../css/content/__consultation-text/content__consultation-text.css);
+
+@import url(../css/content/__consultation-button/content__consultation-button.css);
+
+@import url(../css/popup/popup.css);
+
+@import url(../css/popup/_opened/popup_opened.css);
+
+@import url(../css/popup/__container/popup__container.css);
+
+@import url(../css/popup/__close-button/popup__close-button.css);
+
+@import url(../css/popup/__content/popup__content.css);
+
+@import url(../css/popup/__title/popup__title.css);
+
+@import url(../css/popup/__form/popup__form.css);
+
+@import url(../css/popup/__span/popup__span.css);
+
+@import url(../css/popup/__radio/popup__radio.css);
+
+@import url(../css/popup/__field/popup__field.css);
+
+@import url(../css/popup/__input/popup__input.css);
+
+@import url(../css/popup/__input/_type/popup__input_type_radio.css);
+
+@import url(../css/popup/__input/_type/popup__input_type_error.css);
+
+@import url(../css/popup/__save-button/popup__save-button.css);
+
+@import url(../css/popup/__save-button/_disabled/popup__save-button_disabled.css);
+
+@import url(../css/popup/__view-photo/popup__view-photo.css);
+
+@import url(../css/popup/__container-view/popup__container-view.css);
+
+@import url(../css/footer/footer.css);
+
+@import url(../css/footer/__contacts/footer__contacts.css);
+
+@import url(../css/footer/__copyright/footer__copyright.css);
+
+@import url(../css/swiper-button-prev/swiper-button-prev.css);
+
+@import url(../css/swiper-button-next/swiper-button-next.css);
+
+@import url(../css/ellipse/ellipse.css);

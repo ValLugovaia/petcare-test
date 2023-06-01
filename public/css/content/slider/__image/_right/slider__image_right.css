@@ -1,0 +1,8 @@
+@media screen and (min-width: 320px) and (max-width: 820px) {
+    .slider__image_right {
+        position: relative;
+        z-index: -1;
+        width: 440px;
+        height: 400px;
+    }
+}
