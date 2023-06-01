@@ -38,7 +38,13 @@
 @import url(../css/content/__card/_right/content__card_right.css);
 @import url(../css/content/__overlay/content__overlay.css);
 @import url(../css/content/__info/content__info.css);
+@import url(../css/content/__info/_left/content__info_left.css);
 @import url(../css/content/__card-title/content__card-title.css);
+@import url(../css/content/__card-title/_right/content__card-title_right.css);
+@import url(../css/content/__card-arrow/content__card-arrow.css);
+@import url(../css/content/__card-subtitle/content__card-subtitle.css);
+@import url(../css/content/__card-link/content__card-link.css);
+@import url(../css/content/__card-link-block/content__card-link-block.css);
 @import url(../css/content/__consultation/content__consultation.css);
 @import url(../css/content/__consultation-title/content__consultation-title.css);
 @import url(../css/content/__consultation-price/content__consultation-price.css);

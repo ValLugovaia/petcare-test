@@ -5,17 +5,16 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Petcare</title>
 </head>
 <body class="page">
   <header class="header">
     <button class="header__burger-button"><img src="img/header/header-burger.svg" alt="Кнопка бургер."></button>
-    <div class="logo header__logo">
+    <a class="logo header__logo link" href="/">
       <img class="logo__image" src="img/header/header-logo.svg" alt="Сиреневый отпечаток лапы.">
       <p class="logo__text">PetCare</p>
-    </div>
+    </a>
     <ul class="header__nav-links">
       <li><a class="link header__nav-link" href="#">Новости</a></li>
       <li><a class="link header__nav-link" href="#">О нас</a></li>
@@ -50,7 +49,9 @@
                 <div class="swiper-button-prev"></div>
                 <h2 class="slider__title">Мы заботимся<br> о ваших питомцах</h2>
                 <p class="slider__subtitle">Записывайтесь в ветклиники<br> и консультируйтесь с ветеринаром онлайн</p>
-                <button class="slider__button">Связаться с нами</button>
+                <a href="#footer">
+                  <button class="slider__button">Связаться с нами</button>
+                </a>
               </div>
               <img class="slider__image" src="img/slider/slider-image.png" alt="Серый полосатый кот сидит.">
               <div class="swiper-button-next"></div>
@@ -101,9 +102,11 @@
       </div>
       <div class="content__card content__card_right">
         <div class="content__info">
-          <h2 class="content__card-title">Самые болезненные породы кошек: топ-5</h2>
+          <h2 class="content__card-title content__card-title_right">Самые болезненные породы кошек: топ-5</h2>
           <p class="content__card-subtitle">Среди кошачьих пород есть несколько, отличающихся слабым здоровьем.</p>
-          <a class="link content__card-link" href="#">Все статьи о кошках</a>
+          <div class="content__card-link-block">
+            <a class="link content__card-link" href="#">Все статьи о кошках</a>
+          </div>
         </div>
       </div>
     </section>
@@ -180,7 +183,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <ul class="footer__contacts">
       <li class="footer__contact">8 (800) 999-88-77</li>
       <li class="footer__contact">info@petcare.com</li>
@@ -207,16 +210,27 @@
   </script>
   <script>
     const openPopup = document.querySelector('.slider__button_right');
-const popup = document.querySelector('.popup');
-const closePopup = document.querySelector('.popup__close-button');
+    const popup = document.querySelector('.popup');
+    const closePopup = document.querySelector('.popup__close-button');
+    const openNavbar = document.querySelector('.header__burger-button');
+    const navbar = document.querySelector('.header__nav-bar');
+    const closeNavbar = document.querySelector('.header__close-button');
 
-openPopup.addEventListener('click', () => {
-    popup.classList.add('popup_opened');
-});
+    openPopup.addEventListener('click', () => {
+        popup.classList.add('popup_opened');
+    });
 
-closePopup.addEventListener('click', () => {
-    popup.classList.remove('popup_opened');
-});
+    closePopup.addEventListener('click', () => {
+        popup.classList.remove('popup_opened');
+    });
+
+    openNavbar.addEventListener('click', () => {
+        navbar.classList.add('header__nav-bar_opened');
+    });
+
+    closeNavbar.addEventListener('click', () => {
+        navbar.classList.remove('header__nav-bar_opened');
+    });
   </script>
 </body>
 </html>
