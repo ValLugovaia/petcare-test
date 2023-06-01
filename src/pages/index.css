@@ -36,6 +36,7 @@
 @import url(../blocks/content/__card/content__card.css);
 @import url(../blocks/content/__card/_left/content__card_left.css);
 @import url(../blocks/content/__card/_right/content__card_right.css);
+@import url(../blocks/content/__overlay/content__overlay.css);
 @import url(../blocks/content/__info/content__info.css);
 @import url(../blocks/content/__card-title/content__card-title.css);
 @import url(../blocks/content/__consultation/content__consultation.css);

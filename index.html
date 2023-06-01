@@ -72,11 +72,11 @@
     </section>
     <section class="content page__section">
       <div class="content__card content__card_left">
-        <div class="content__info">
-          <h2 class="content__card-title">Сколько стоит онлайн-консультация с терапевтом?</h2>
-          <button class="content__card-button">
+        <div class="content__overlay">
+          <div class="content__info content__info_left">
+            <h2 class="content__card-title">Сколько стоит онлайн-консультация с терапевтом?</h2>
             <img class="content__card-arrow" src="src/images/content/content-arrow.svg" alt="Длинная стрелка вправо.">
-          </button>
+          </div>
         </div>
         <div class="content__consultation">
           <h2 class="content__consultation-title">Онлайн-консультация с терапевтом</h2>
@@ -106,7 +106,7 @@
         </div>
       </div>
     </section>
-    <section class="popup popup_opened">
+    <section class="popup">
       <div class="popup__container">
         <button class="popup__close-button" name="close-popup" type="button"></button>
         <div class="popup__content">
@@ -191,7 +191,7 @@
     </div>
   </footer>
   <script>
-    var swiper = new Swiper(".mySwiper", {
+    const swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
       navigation: {
         nextEl: ".swiper-button-next",
