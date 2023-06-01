@@ -10,6 +10,11 @@
 @import url(../blocks/header/__burger-button/header__burger-button.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__nav-links/header__nav-links.css);
+@import url(../blocks/header/__nav-links/_mobile/header__nav-links_mobile.css);
+@import url(../blocks/header/__nav-link/header__nav-link.css);
+@import url(../blocks/header/__nav-bar/header__nav-bar.css);
+@import url(../blocks/header/__nav-bar/_opened/header__nav-bar_opened.css);
+@import url(../blocks/header/__close-button/header__close-button.css);
 @import url(../blocks/header/__social-links/header__social-links.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/slider/slider.css);
